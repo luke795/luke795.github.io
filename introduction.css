@@ -1,0 +1,44 @@
+/* 標籤名稱選擇器 */
+body{
+    background: rgba(0, 128, 0, 0.1)
+}
+.firsttitle{
+    margin-top:25px;
+    margin-bottom:25px; 
+    font-weight:bold;
+    font-size:30px;
+    text-align:center;
+}
+.list{
+    display:flex;
+}
+.secondtitle{
+    flex: 1; /* 文字區塊佔用可用空間 */
+    margin-bottom:5px; 
+    font-family: "Times New Roman", Times, serif;
+    font-weight:bold;
+    font-size:20px;
+}
+.image-block img {
+    max-width: 100%; /* 讓圖片的最大寬度為其容器的100% */
+    height: 320px; /* 自動調整高度以保持比例 */
+    width: 250px; /* 設定固定寬度 */
+}
+.thirdtitle{
+    margin-top:10px;
+    margin-bottom:10px; 
+    font-weight:bold;
+    font-size:15px;
+}
+.text img{
+    margin-bottom:5px;
+    vertical-align:middle;
+    height: 24px; /* 自動調整高度以保持比例 */
+    width: 24px; /* 設定固定寬度 */
+}
+.content{
+    margin-top:5px;
+    margin-bottom:20px; 
+    margin:20px;
+    font-size:15px;
+}
